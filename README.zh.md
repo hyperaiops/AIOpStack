@@ -12,10 +12,7 @@ AIOpStack 是一套基于 Langchain/LangGraph 和 Streamlit GUI 的 AI 运维智
 
 **Video Demo**
 
-<video controls width="600">
-    <source src="media/demo_zh.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+![Demo Video](media/demo_en.gif)
 
 🌐 [English](README.md) | [简体中文](README.zh.md)
 

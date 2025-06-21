@@ -10,14 +10,6 @@
 
 AIOpStack is a collection of AI Operational Agents built with Langchain/LangGraph and Streamlit‑based GUI for operational interaction and visualization.
 
-**Video Demo**
-
-<video controls width="600">
-    <source src="media/demo_en.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-
-
 🌐 [English](README.md) | [简体中文](README.zh.md)
 
 ### 🎯 Motivation
@@ -33,6 +25,10 @@ AIOpStack is a collection of AI Operational Agents built with Langchain/LangGrap
 - **MCP Integration** – Seamless bridge between LLMs and popular MCP tools (e.g., Kubernetes, Ansible).  
 - **Human‑in‑the‑loop Feedback** – Pause for confirmation or iterative refinement at key steps.  
 - **Pure Python & GUI‑free** – Fully Python‑powered: no frontend skills required for reuse or extension.
+
+**Video Demo**
+
+![Demo Video](media/demo_en.gif)
 
 ### Agents Repository
 | Agent Name                     | Description                                                                                                                                                  | Reference Link                                                                                          |
