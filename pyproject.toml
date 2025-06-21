@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aiopstack"
+version = "0.1.0"
+authors = [
+    { name = "LaoXue AIOps", email = "gibsonxue@gmail.com" },
+]
+description = "A collection of AI Operational Agents built with Langchain/LangGraph and Streamlit-based GUI for real-time user interaction and visualization"
+readme = "README.md"
+requires-python = ">=3.9,<=3.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+]
+license = "Apache-2.0"
+license-files = ["LICEN[CS]E*"]
+
+dependencies = [
+    "streamlit",
+    "streamlit-authenticator",
+    "streamlit-local-storage",
+    "langgraph",
+    "langchain-openai",
+    "langchain-core",
+    "langchain_community",
+    "langchain-azure-ai",
+    "azure-identity",
+    "mcp",
+    "langchain_mcp_adapters",
+]
+
+[project.urls]
+Homepage = "https://github.com/hyperaiops/aiopstack.git"
+Issues = "https://github.com/hyperaiops/aiopstack/issues"
+
+[project.scripts]
+aiops = "aiopstack.cli:main"
+
+[tool.setuptools]
+include-package-data = true
