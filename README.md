@@ -95,7 +95,7 @@ We welcome contributions! If you have suggestions or feature requests, feel free
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/ohtaman/streamlit-desktop-app.git
+git clone https://github.com/hyperaiops/AIOpStack.git
 ```
 
 2. Install dependencies:
