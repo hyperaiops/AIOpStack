@@ -54,7 +54,7 @@ pip install aiopstack
 ```bash
 aiops
 ```
-项目默认会运行并监听 0.0.0.0:8051
+项目默认会运行并监听 localhost:8501
 
 #### ⚙️ MCP 设置
 
@@ -94,7 +94,7 @@ aiops
 1. 克隆仓库：
 
 ```bash
-git clone https://github.com/ohtaman/streamlit-desktop-app.git
+git clone https://github.com/hyperaiops/AIOpStack.git
 ```
 
 2. 安装依赖:

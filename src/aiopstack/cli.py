@@ -12,7 +12,7 @@ def main():
 
     # Run app.py if no additional args
     if len(sys.argv) == 1:
-        sys.argv = ["streamlit", "run", app_path, "--server.address=0.0.0.0"]
+        sys.argv = ["streamlit", "run", app_path]
     else:
         # Prepend "streamlit" to allow full CLI passthrough
         sys.argv = ["streamlit"] + sys.argv[1:]
