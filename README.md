@@ -55,7 +55,7 @@ run `aiops` with no parameter
 ```bash
 aiops
 ```
-the project can be listening at 0.0.0.0:8051 by default.
+the project can be listening at localhost:8501 by default.
 
 #### ⚙️ MCP Settings
 
